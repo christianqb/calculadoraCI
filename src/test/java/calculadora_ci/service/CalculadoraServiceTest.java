@@ -10,12 +10,12 @@ class CalculadoraServiceTest {
 
     @Test
     void deveSomar() {
-        assertEquals(8, service.somar(5,3));
+        assertEquals(10, service.somar(5,3));
     }
 
     @Test
     void deveSomarNumerosNegativos() {
-        assertEquals(3, service.somar(-2,5));
+        assertEquals(5, service.somar(-2,5));
     }
 
     @Test
