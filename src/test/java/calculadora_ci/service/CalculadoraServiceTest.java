@@ -10,17 +10,17 @@ class CalculadoraServiceTest {
 
     @Test
     void deveSomar() {
-        assertEquals(10, service.somar(5,3));
+        assertEquals(8, service.somar(5,3));
     }
 
     @Test
     void deveSomarNumerosNegativos() {
-        assertEquals(5, service.somar(-2,5));
+        assertEquals(3, service.somar(-2,5));
     }
 
     @Test
     void deveSubtrair() {
-        assertEquals(10, service.subtrair(8,3));
+        assertEquals(5, service.subtrair(8,3));
     }
 
     @Test
